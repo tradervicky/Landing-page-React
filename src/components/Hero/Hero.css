@@ -1,0 +1,134 @@
+
+.Hero {
+  width: 1216px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 96px;
+  padding-bottom: 122px;
+  padding-left: 16px;
+  padding-right: 46px;
+}
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 28px;
+  margin-top: 24px;
+}
+.hero-first {
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  line-height: 21px;
+}
+
+.hero-hire {
+  font-size: 64px;
+  font-weight: 900;
+  color: white;
+  line-height: 64px;
+  margin-top: 24px;
+}
+
+.hero-market {
+  font-size: 64px;
+  line-height: 64px;
+  margin-top: 8px;
+  font-weight: 900;
+  color: rgb(100 21 255);
+  display: inline-block;
+  position: relative;
+  left: -16px;
+  top: 4px;
+  bottom: -16px;
+  right: -16px;
+  background-color: white;
+  transform: skew(-12deg);
+  
+}
+
+.hero-text button {
+  margin-top: 90px;
+  padding: 16px 32px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  border-width: 0px;
+  border-style: solid;
+  border-color: rgb(226, 232, 240);
+  background-color: white;
+  color: rgb(100 21 255);
+  font-size: 15px;
+  font-weight: 600;
+  transition: 0.3s ease-in;
+  border: transparent;
+
+}
+.hero-text button:hover {
+  background-color: rgb(100 21 255);
+  color: white;
+  transition: 0.3s ease-in;
+}
+iframe {
+  height: 315px;
+  width: 560px;
+  border-radius: 5px;
+  padding-top: 12px
+}
+
+
+
+@media (min-width:376px ) and (max-width: 913px){
+  .Hero{
+    width: 912px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .Hero bottom{
+    margin-bottom: 20px;
+  }
+  .video{
+    padding-top: 30px;
+  }
+  .hero-text{
+    align-items: center;
+  }
+  .logo{
+    margin-left: 30px;
+  }
+}
+
+/* for mobile  */
+@media  (max-width: 375px){
+  .Hero{
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .Hero bottom{
+    margin-bottom: 20px;
+  }
+  .video{
+    padding-top: 30px;
+  }
+  .hero-text{
+    align-items: center;
+  }
+  .hero-first{
+    width: 278px;
+  }
+  .hero-hire{
+    font-size: 30px;
+  }
+  .hero-market{
+    font-size: 30px;
+  }
+  iframe{
+    width: 311px;
+    height: 174px;
+  }
+
+}

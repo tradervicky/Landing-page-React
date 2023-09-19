@@ -1,0 +1,73 @@
+.Footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a202c;
+    height: 425px;
+    gap: 15px;
+    margin-bottom: 0;
+}
+.Footer-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.Footer-logo img{
+    padding-right: 8px;
+    width: 35px;
+    height: 36px;
+}
+.Footer-logo p{
+    font-size: 25px;
+    font-weight: 900;
+    color: white;
+}
+.FooterMenu ul{
+    display: flex;
+   list-style: none;
+   gap: 32px;
+   font-size: 18px;
+   font-weight: 600;
+   color: white;
+   cursor: pointer;
+}
+.Footer span{
+    font-size: 16px;
+    font-weight: 500;
+    color: #6d8aa3;
+}
+.Social-icon img{
+    padding-right: 28px;
+    width: 24px;
+    height: 24px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+/* for tablet  */
+
+
+@media (min-width:376px) and (max-width:912px){
+    
+}
+
+/* Media query For mobile  */
+@media  (max-width: 375px){
+    .Footer{
+        width: 375px;  
+        height: 406px; 
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .FooterMenu ul{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .Footer span{
+        width: 311px;
+        text-align: center;
+    }
+}

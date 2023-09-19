@@ -1,0 +1,125 @@
+.Testimonial{
+    display: flex;
+    width: 1280px;
+    margin: 192px auto;
+    
+}
+.Testimonial-text{
+    width: 700px;
+}
+.Testimonial-text h3{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: rgb(100, 21, 255);
+    margin-top: 0;
+}
+.Testimonial-text h1{
+    font-size: 48px;
+    letter-spacing: 1.2px;
+    line-height: 60px;
+    font-weight: 900;
+    color: rgb(36, 62, 99);
+}
+.Testimonial-text h1 span{
+    color: rgb(100, 21, 255);
+}
+.Testimonial-text p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: rgb(124, 139, 161);
+    margin-top: 32px;
+}
+.quote-testimonial{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    color: rgb(36, 62, 99);
+    margin-top: 48px;
+}
+
+.quote-testimonial img{
+    width: 24px;
+    height: 24px;
+}
+.Testimonial-text-img {
+display: flex;
+align-items: center;
+gap: 20px;
+}
+.Testimonial-text-img img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.author-name{
+    display: flex;
+    flex-direction: column;
+}
+.author-name #at-name{
+    font-size: 30px;
+    color: rgb(100, 21, 255) ;
+    font-weight: 600;
+}
+.author-name #at-ceo{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(124, 139, 161);
+    line-height: 24px;
+}
+.Testimonial-sideImg img{
+    width: 528px;
+    height: 576px;
+    border-radius: 4px;
+    background-size: cover;
+    border-radius: 5px;
+    background-position:center;
+    margin-left: 50px;
+    object-fit: cover;
+}
+
+/* for tablet  */
+
+
+@media (min-width:376px) and (max-width:912px){
+    .Testimonial{
+        width: 912px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Testimonial-text{
+        text-align: center;
+    }
+    .Testimonial-text-img{
+        align-items: center;
+        margin-left: 196px;
+        margin-bottom: 37px;
+    }
+    
+}
+
+
+/* Media query For mobile  */
+@media  (max-width: 375px){
+    .Testimonial{
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Testimonial-text{
+        text-align: center;
+        width: 375px;
+    }
+    .Testimonial-text-img{
+        align-items: center;
+        margin-left: 65px;
+        margin-bottom: 37px;
+    }
+    .Testimonial-sideImg img{
+        width: 311px;
+        height: 320px;
+    }
+}

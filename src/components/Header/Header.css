@@ -1,0 +1,16 @@
+.header{
+    margin-top: 0;
+    background-image:linear-gradient(0deg, rgba(100, 21, 255, 0.25), rgba(100, 21, 255, 0.25)),url(/public/media/BackGroundImage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+@media (min-width:376px) and (max-width:912px) {
+    .header{
+        background-size: cover;
+        background-position: center;
+    }
+}

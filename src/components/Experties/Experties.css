@@ -1,0 +1,140 @@
+.Experties-main{
+    display: flex;
+    width: 1280px;
+    margin: 0 auto;
+    padding-bottom: 96px;
+    padding-top: 192px;
+    gap: 100px;
+}
+.Experties-text{
+    width: 645px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.Experties-title{
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(100, 21, 255);
+    margin-bottom: 16px;
+}
+.Experties-heading{
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 1.2px;
+    line-height: 60px;
+    color: rgb(36, 52, 99);
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.Experties-heading span{
+    color: rgb(100, 21, 255);
+}
+ .lorem{
+    width: 647px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(124, 139, 161);
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+
+.Experties-category-icon img{
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+    border: 1px solid;
+    border-width: 1px solid;
+    border-radius: 50%;
+    border-color: rgb(100 21 255);
+    object-fit: cover;
+}
+.Experties-category-text{
+    width: 330px;
+}
+.Experties-category{
+    
+    display: flex;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+.Experties-category span{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    color: rgb(100, 21, 255);
+}
+
+.Experties-img img{
+    height: 712px;
+    width: 506px;
+
+}
+.Experties-category-text p{
+    font-size: 14px;
+    color: rgb(36, 62, 99);
+    line-height: 21px;
+    margin-top: 4px;
+    font-weight: 400;
+}
+.Experties-category-text-btn button{
+    margin-top: 8px;
+    box-sizing: border-box;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: rgb(100 21 255);
+    font-weight: 700;
+    border-width: 0px;
+    border-style: solid;
+    border-color: rgb(226, 232, 240);
+    color: white;
+    cursor: pointer;
+}
+/* for tablet  */
+
+
+@media (min-width:376px) and (max-width:912px){
+    .Experties-main{
+        width: 848px;
+        margin: 0 20px 0 20px;
+    }
+    .Experties-text{
+        width: 446px;
+        padding-left: 20px;
+    }
+    .Experties-img img{
+        width: 353px;
+        height: 616px;
+    }
+    .Experties-heading{
+        font-size: 36px;
+        letter-spacing: 0.9px;
+    }
+}
+   /* Media query For mobile  */
+@media  (max-width: 375px){
+    .Experties-main{
+        width: 375px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .Experties-text{
+        text-align: center;
+        width: 375px;
+        padding-left: 20px;
+    }
+    .Experties-heading{
+        font-size: 30px;
+        letter-spacing: 0.75px;
+    }
+    .Experties-img img{
+        width: 311px;
+        height: 320px;
+    }
+    .Experties-category{
+        display: flex;
+        flex-direction: column;
+    }
+}

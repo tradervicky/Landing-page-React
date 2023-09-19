@@ -1,0 +1,151 @@
+.portfolio{
+    display: flex;
+    width: 1280px;
+    margin: 0 auto;
+    gap: 72px;
+}
+.portfolio-card{
+    width: 304px;
+}
+.portfolio-card img{
+    width: 320px;
+    height: 320px;
+    background-size: cover;
+    border-radius: 5px;
+    background-position:center;
+    object-fit: cover;
+    
+}
+.portfolio-flex{
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.portfolio-flex-first{
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(100, 21, 255);
+}
+.portfolio-flex-second{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    color: rgb(113, 128, 150);
+}
+.portfolio-card-text{
+    margin-top: 1rem;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(36, 62, 99);
+}
+.portfolio-card-button{
+    width: 320px;
+    padding: 15px 38px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border-width: 0px;
+    border-style: solid;
+    border-color: rgb(226, 232, 240);
+    background-color: rgb(100 21 255);
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.portfolio-second-section-head{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: rgb(100, 21, 255);
+}
+.portfolio-second-section h3{
+    font-size: 48px;
+    letter-spacing: 1.2px;
+    line-height: 48px;
+    font-weight: 900;
+    color: rgb(36, 62, 99);
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+.portfolio-second-section h3 span{
+    color: rgb(100, 21, 255);
+}
+.portfolio-second-section p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: rgb(124, 139, 161);
+}
+.portfolio-second-section a{
+    color: rgb(100, 21, 255);
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    
+}
+
+.arrow{
+    padding-top: 32px;
+}
+.portfolio-second-section a img{
+    width: 20px;
+    height: 20px;
+     align-self: center;
+     padding-left: 5px;
+}
+.location-portfolio{
+    display: flex;
+    gap: 0px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    align-items: center;
+}
+.location-portfolio img{
+    width: 16px;
+    height: 16px;
+    padding-right:4px ;
+   
+}
+.location-portfolio span{
+    font-size: 12px;
+    font-weight: 600;
+    color:#718096;
+}
+.location-portfolio-clk{
+    align-items: center;
+    margin: 0 auto;
+}
+/* for tablet  */
+
+
+@media (min-width:376px) and (max-width:912px){
+    .portfolio{
+        width: 912px;
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        align-items: center;
+    }
+    
+}
+
+/* Media query For mobile  */
+@media  (max-width: 375px){
+    .portfolio{
+        width: 375px;
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        align-items: center;
+    }
+    .portfolio-second-section{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .portfolio-second-section h3{
+        
+        font-size: 36px;
+        letter-spacing: .9px;
+    }
+
+}

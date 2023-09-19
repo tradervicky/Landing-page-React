@@ -1,0 +1,133 @@
+.TwoColumn{
+    display: flex;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    width: 1280px;
+    margin: 0 auto;
+    line-height: 24px;
+}
+.TwoColumn img{
+    height: 534px;
+    width: 506px;
+}
+.TwoColumn-text{
+    width: 645px;
+    margin-left:80px;
+    padding-top: 32px;
+    padding-bottom:32px ;
+}
+.TwoColumn-Toptext{
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(100, 21, 255);
+    line-height: 24px;
+    tab-size: 4;
+    display: block;
+}
+.TwoColumn-text h1{
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 1.2px;
+    line-height: 60px;
+    color: rgb(36, 62, 99);
+    margin-top: 16px;
+}
+.TwoColumn-text span{
+    color: rgb(100, 21, 255);
+}
+.TwoColumnPara{
+    font-size: 18px;
+    line-height: 29.25px;
+    font-weight: 500;
+    line-height: 1.625;
+    color: rgb(124 139 161 );
+    letter-spacing: 0.32px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.record{
+    display: flex;
+    gap: 50px;
+}
+.clientNo{
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    line-height: 36px;
+    --tw-text-opacity: 1;
+    color: rgb(36 62 99 );
+    
+}
+.clientText{
+    line-height: 24px;
+    font-weight: 500;
+    color: rgb(80 17 204 );
+    padding-bottom: 30px;
+    
+}
+.TwoColumn button{
+    padding: 15px 30px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border-width: 0px;
+    border-style: solid;
+    border-color: rgb(226, 232, 240);
+    background-color: rgb(100 21 255);
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* for tablet  */
+
+
+@media (min-width:376px) and (max-width:912px) {
+      .TwoColumn{
+        width: 848px;
+    margin: 0 auto;
+      }
+      .TwoColumn img{
+        height: 353px;
+        width: 447px;
+    } 
+    .TwoColumn-text{
+        width: 450px;
+        margin-left: 30px;
+    }
+    .TwoColumn-text h1{
+        font-size: 36px;
+        letter-spacing: 0.2px;
+    }
+}
+
+
+/* Media query For mobile  */
+@media  (max-width: 375px){
+   .TwoColumn{
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+    .TwoColumn img{
+        height: 311px;
+        width: 320px;
+    }
+    .TwoColumn-text{
+        text-align: center;
+        width: 311px;
+        margin: 0 auto;
+
+    }
+    .TwoColumn-text h1{
+        font-size: 30px;
+    }
+    .record{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+}
