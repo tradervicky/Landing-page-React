@@ -1,4 +1,4 @@
-# Follow the link where the is deployed
+# Follow the link where the code is deployed
 https://landing-page-treact-vicky.netlify.app/
 
 # Getting Started with Create React App
